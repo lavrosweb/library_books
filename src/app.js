@@ -3,7 +3,7 @@ import { MainView } from './views/main/main';
 class App {
   routes = [{ path: '', view: MainView }];
   appState = {
-	favorites: []
+	favorites: ['s', 's']
   }
 
   constructor() {
