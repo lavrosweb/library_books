@@ -1,0 +1,33 @@
+{
+  "name": "library_books-app",
+  "version": "1.0.0",
+  "description": "Cool book app",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint --config eslint.config.mjs .",
+    "build": "rollup -c --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lavrosweb/library_books.git"
+  },
+  "keywords": [
+    "books"
+  ],
+  "author": "Yaroslav Shpakov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lavrosweb/library_books/issues"
+  },
+  "homepage": "https://github.com/lavrosweb/library_books#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.3.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@types/eslint__js": "^8.42.3",
+    "eslint": "^9.3.0",
+    "globals": "^15.3.0",
+    "rollup": "^4.18.0",
+    "rollup-plugin-import-css": "^3.5.0"
+  }
+}
