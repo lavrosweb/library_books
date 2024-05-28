@@ -3,8 +3,8 @@ import { MainView } from './views/main/main';
 class App {
   routes = [{ path: '', view: MainView }];
   appState = {
-	favorites: ['s', 's']
-  }
+    favorites: ['s', 's'],
+  };
 
   constructor() {
     window.addEventListener('hashchange', this.route.bind(this));
